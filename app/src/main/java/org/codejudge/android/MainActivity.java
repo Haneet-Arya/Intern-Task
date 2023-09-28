@@ -2,6 +2,7 @@ package org.codejudge.android;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -11,7 +12,7 @@ import android.widget.TextView;
 
 import org.codejudge.android.helper.ConfigHelper;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
   private EditText txtNumber1;
   private EditText txtNumber2;
